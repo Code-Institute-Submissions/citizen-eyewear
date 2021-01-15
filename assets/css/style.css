@@ -1,0 +1,21 @@
+/*--------------------------------------------Navbar*/
+
+header {
+    margin: 0;
+    max-height: 30%;
+}
+.nav-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 20px;
+    color: #EFD8D2;
+    background-color: #A96066;
+}
+
+.logo-img {
+    height: auto; 
+    width: auto; 
+    max-width: 90px; 
+    padding-left: 40px;
+    float: left;
+}
