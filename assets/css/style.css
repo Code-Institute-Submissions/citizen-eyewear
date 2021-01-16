@@ -2,6 +2,8 @@ a {
     text-decoration: none;
 }
 
+
+
 /*--------------------------------------------Navbar*/
 
 header {
@@ -17,7 +19,7 @@ header {
 }
 
 .nav-title {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
     letter-spacing: 0.1em;
     color: #EFD8D2;
@@ -47,7 +49,7 @@ header {
 /*--------------------------------------------Footer*/
 
 .footer-contact-details {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: #2D3F62;
     font-size: 110%;
     font-weight: 600;
@@ -85,4 +87,36 @@ i {
 
 .footer-links {
     text-align: center;
+}
+
+/*--------------------------------------------Colours*/
+
+.bg-color-main {
+    background-color: #EFD8D2;
+}
+
+/*--------------------------------------------Headings*/
+
+.home-heading {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*--------------------------------------------Home Page*/
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 50px 50px 50px 80px;
+    float: none;
+}
+
+.home-image {
+    max-width: 80%;
+    border: 8px solid #2D3F62;
 }
