@@ -1,15 +1,35 @@
+a {
+    text-decoration: none;
+}
+
 /*--------------------------------------------Navbar*/
 
 header {
     margin: 0;
-    max-height: 30%;
+    min-height: 150px;
+    background-color: #A96066;
+    text-decoration: none;
+    padding: 50px
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .nav-title {
     font-family: 'Raleway';
-    font-weight: 700;
-    padding: 20px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
     color: #EFD8D2;
-    background-color: #A96066;
+    text-decoration: none;
+}
+
+.nav-title:hover {
+    color: #2D3F62
+}
+
+.nav-break {
+    color: #2D3F62
 }
 
 .logo-img {
@@ -18,4 +38,51 @@ header {
     max-width: 90px; 
     padding-left: 40px;
     float: left;
+}
+
+.active-navbar-link {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------Footer*/
+
+.footer-contact-details {
+    font-family: 'Raleway';
+    color: #2D3F62;
+    font-size: 110%;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+footer {
+    margin: 0;
+    min-height: 100px;
+    background-color: #FFC5AD;
+    text-decoration: none;
+    padding: 30px;
+}
+
+i {
+    color: #2D3F62
+}
+
+@media only screen and (max-width: 833px){
+    .footer-links {
+        text-align: center;
+        padding-left: 50px;
+        font-size: 250%;
+    }
+    .footer-contact-details {
+        font-size: 90%;
+        padding-left: 40px;
+    }
+}
+
+.footer-links:hover {
+    color: #A96066
+}
+
+.footer-links {
+    text-align: center;
 }
