@@ -10,7 +10,6 @@ header {
     margin: 0;
     min-height: 150px;
     background-color: #A96066;
-    text-decoration: none;
     padding: 50px
 }
 
@@ -118,5 +117,8 @@ i {
 
 .home-image {
     max-width: 80%;
-    border: 8px solid #2D3F62;
+    border: 8px solid #A96066;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
 }
