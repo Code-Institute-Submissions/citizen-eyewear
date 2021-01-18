@@ -6,10 +6,17 @@ a {
 
 /*--------------------------------------------Navbar*/
 
+@media only screen and (max-width: 833px){
+    h2 {
+    font-size: 135%
+    }
+}
+
 header {
     margin: 0;
     min-height: 150px;
     background-color: #A96066;
+    text-decoration: none;
     padding: 50px
 }
 
@@ -41,8 +48,18 @@ header {
     float: left;
 }
 
+.logo-img:hover {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(76%) saturate(426%) hue-rotate(181deg) brightness(96%) contrast(88%);
+}
+
 .active-navbar-link {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 833px){
+    .navmenu-item {
+    font-size: 80%
+    }
 }
 
 /*--------------------------------------------Footer*/
@@ -68,7 +85,7 @@ i {
     color: #2D3F62
 }
 
-@media only screen and (max-width: 833px){
+@media only screen and (max-width: 768px){
     .footer-links {
         text-align: center;
         padding-left: 50px;
@@ -103,7 +120,7 @@ i {
     margin-bottom: 50px;
 }
 
-/*--------------------------------------------Home Page*/
+/*--------------------------------------------Home Page Photo*/
 
 .row-table {
     display: table;
@@ -111,14 +128,56 @@ i {
 
 .section-column {
     display: table-cell;
-    padding: 50px 50px 50px 80px;
+    padding: 30px 30px 30px 30px;
     float: none;
 }
 
-.home-image {
-    max-width: 80%;
-    border: 8px solid #A96066;
+.display-stand-image {
+    max-width: 100%;
+    min-width: 100%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
+}
+
+.ds-image-border {
+    border: 6px solid #A96066;
+}
+
+@media only screen and (max-width: 992px){
+    .ds-image-border {
+    border: 3px solid #A96066;
+}
+}
+
+/*--------------------------------------------Home Page Intro*/
+
+.heading-main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    padding-left: 20px;
+    color: #2D3F62
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #2D3F62;
+}
+
+.main-text-link {
+    color: #A96066
+}
+
+.main-text-link:hover {
+    color: #FFC5AD;
+}
+
+.map-image {
+    display: block;
+    margin: auto;
+    border: 6px solid #2D3F62;
+    width: 300px;
 }
