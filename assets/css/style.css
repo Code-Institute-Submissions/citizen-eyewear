@@ -72,6 +72,11 @@ header {
     text-decoration: underline;
 }
 
+.hvr-fade:hover {
+    background-color: #EFD8D2;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 833px){
     .navmenu-item {
     font-size: 80%;
@@ -121,6 +126,14 @@ i {
 
 .footer-links {
     text-align: center;
+}
+
+.telnumber {
+    color: #2D3F62;
+}
+
+.telnumber:hover {
+    color: #A96066
 }
 
 /*--------------------------------------------Colours*/
@@ -272,7 +285,14 @@ td {
 }
 
 .btn-outline-secondary {
-    background-color: #A96066;
+    background-color: #2d3f62;
     border: none;
     color: #EFD8D2;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #A96066;
+    color: #EFD8D2
 }
