@@ -72,7 +72,7 @@ header {
     text-decoration: underline;
 }
 
-.hvr-fade:hover {
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
     background-color: #EFD8D2;
     border-radius: 5px;
 }
@@ -294,5 +294,6 @@ td {
 
 .btn-outline-secondary:hover {
     background-color: #A96066;
-    color: #EFD8D2
+    color: #EFD8D2;
 }
+
