@@ -36,3 +36,11 @@ These are some scenarios that a user may take when accessing the website:
 * Header - this is uniform across the site and houses the title/logo and the navbar
 * Navbar - this allows users to navigate through the website easily
 * Footer - this includes contact information that people would want access to (address/phone number) as well as some additonal links to social media
+
+### Features Within Pages
+#### Images
+* Images help to aid the user visually, so they are able to immediately identify the brand image, in this case, images on the Home page will be of glasses displays, and also images on the Team page are of team members
+
+* 
+
+### 
