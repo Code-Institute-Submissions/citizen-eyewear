@@ -212,12 +212,14 @@ i {
 
 .ds-image-border {
     border: 6px solid #A96066;
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (max-width: 992px){
     .ds-image-border {
     border: 3px solid #A96066;
-}
+    }
 }
 
 .map-image {
