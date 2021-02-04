@@ -146,6 +146,16 @@ In the footer I also included a "tel:" link to the phone number, which will open
 
 ![TelLink](README-images/tel-phone.png)
 
+#### Testing The Form 
+
+I followed the guide on the Bootstrap library in order to create a form, which, in future implementations of the site, would notify the company that someone has contacted them for more information.
+
+The required fields in the form are name and phone number. I chose to make the phone number the required field for contact option, as the company needs a way to get back in touch with the user. I also gave the user the option to provide an email address and a text box in case they want to provide more information about what they are querying.
+
+In the example screenshot below, I have not completed the email address so it does not meet the standard and would result in a failure to send. I also haven't completed the required phone number. The box is surrounded by a red outline when it does not meet the requirements.
+
+![ReqForm](README-images/form-req.png)
+
 ## Deployment
 
 #### GitHub Pages
@@ -154,7 +164,7 @@ I followed the instructions on how to deploy to [GitHub Pages](https://pages.git
 
 After navigating to my repository, I clicked 'Settings' and then scrolled down until I found the settings for GitHub Pages. After choosing a source (I chose 'master') within this setting, it then deploys the page with the changes that have been pushed in Git to it's own page.
 
-## Credits
+## Credits
 
 #### Content 
 
