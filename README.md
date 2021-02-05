@@ -126,6 +126,7 @@ Using developer tools, I also looked at how the website would look on different 
 After testing the site for a while, I noticed that the navbar could be difficult to use as the only indication that you were hovering over a link was the text colour changing - I decided to implement the use of Hover.css to improve UX by creating a box around the link when hovered over:
 
 * Navbar with Hover.css; mousing over the 'Home' link creates a background to the text and changes the text colour:
+
 ![HovercssNavbar](README-images/navbar-hover.png)
 
 #### User Stories
