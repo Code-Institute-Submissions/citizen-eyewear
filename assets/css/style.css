@@ -193,6 +193,10 @@ i {
      text-align: center
  }
 
+ .home-li {
+    padding: 10px 0;
+}
+
 /*-------Home Page Photos-------*/
 
 .row-table {
@@ -206,7 +210,7 @@ i {
 }
 
 .display-stand-image {
-    max-width: 100%;
+    max-width: 80%;
     min-width: 100%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -289,4 +293,3 @@ td {
     background-color: #A96066;
     color: #EFD8D2;
 }
-
